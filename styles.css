@@ -1,35 +1,99 @@
 .fixed-header{
     z-index: 1;
+    position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     width: 94%;
-    border: solid #5f5f5f 4px;
+    border: solid #161616 4px;
     border-radius: 15px;
     background-color: #000;
+    margin-top: 10px;
 }
 
 .menu{
     display: flex;
     justify-content: space-evenly;
-    width: 55%;
+    width: 50%;
 }
 
 body{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .menu-text{
     color: #fff;
 }
 
+.search:visited{
+    border: none;
+}
+
 .search{
-    background-color: #5f5f5f;
-    border: solid #5f5f5f;
+    background-color: #161616;
+    border: solid #161616;
     border-radius: 6px;
+    width: 200px;
+    height: 25px;
 }
 
 .menu-text-click{
     text-decoration: none;
+}
+
+.main-section{
+    height: 750px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clad-inside{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagline{
+    color: rgba(255, 255, 255, 0.65);
+    margin-bottom: 80px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.title-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collections{
+    font-size: 18px;
+    width: 170px;
+    height: 50px;
+    background-color: #161616;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-collections{
+    text-decoration: none;
+}
+
+.main-image{
+    width: 500px;
+}
+
+.model{
+    width: 450px;
 }
