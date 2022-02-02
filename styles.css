@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0;
+    font-family: 'Cinzel';
 }
 
 .menu-text{
@@ -75,7 +76,8 @@ body{
 }
 
 .collections{
-    font-size: 18px;
+    font-family: 'Shadows Into Light';
+    font-size: 22px;
     width: 170px;
     height: 50px;
     background-color: #161616;
