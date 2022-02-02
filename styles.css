@@ -1,4 +1,12 @@
-.fixed-header {
+
+body{
+    color: white;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Cinzel';
+}
+
+.fixed-header{
     z-index: 1;
     position: fixed;
     display: flex;
@@ -8,7 +16,7 @@
     border: solid #161616 4px;
     border-radius: 15px;
     background-color: #000;
-    margin-top: 10px;
+    margin-top: 0px
 }
 
 .menu {
@@ -22,7 +30,7 @@ body {
     margin: 0;
 }
 
-.menu-text {
+.menu-text{
     color: #fff;
 }
 
@@ -75,6 +83,8 @@ body {
 
 .collections {
     font-size: 18px;
+    font-family: 'Shadows Into Light';
+    font-size: 22px;
     width: 170px;
     height: 50px;
     background-color: #161616;
@@ -198,3 +208,74 @@ span {
   }
 
   
+/* !сеция about us */
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us , .social-media{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    margin-left: 170px;
+    font-size: 55px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-block{
+    flex-wrap: wrap;
+}
+
+.about-content{
+    max-width: 40%;
+    display: flex;
+    margin: 0px;
+}
+
+.ab-text{
+    font-style: normal;
+    font-size: 30px;
+    text-align: justify;
+    align-items: center;
+}
+
+.ab-img{
+    display: flex;
+    justify-content: center;
+}
+
+.ab-img>img{
+    max-width: 100%;
+}
+
+.ab-info{
+    width: 78%;
+    margin: 0 auto;
+}
+
+/* !сеция social media */
+
+.social-block{
+    gap: 23px;
+}
+
+.social-content{
+    width: 26%;
+    margin: 0;
+}
+
+.social-content>img{
+    width: 100%;
+}
+/* !секция footer */
+ .footer{
+     background-color: gray;
+ }
