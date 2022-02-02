@@ -135,6 +135,7 @@ h1 {
 }
 
 .item p {
+    font-family: "Shadows Into Light";
     padding-right: 70px;
     margin: 0%;
     font-size: 30px;
@@ -146,6 +147,7 @@ h1 {
 }
 
 .more p {
+    font-family: "Shadows Into Light";
     cursor: pointer;
     max-width: 200px;
     margin: 20px 0 0 40px;
@@ -182,6 +184,7 @@ h1 {
 }
 
 span {
+    font-family: "Shadows Into Light";
     font-size: 28px;
     line-height: 68px;
     margin-right: 70px;
