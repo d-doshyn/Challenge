@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'Cinzel Normal';
+    src: url('./fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Shadows Into Light';
     src: url('./fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf');
     font-weight: normal;
