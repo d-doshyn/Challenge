@@ -114,13 +114,13 @@ body {
     max-width: 80%;
 }
 
-.owl-carousel img {
+.owl-carousel img {  
+    gap: 23px;
     width: 1200px;
-    padding: 0 20px;
     letter-spacing: 00.08em;
 }
 
-.owl {
+.owl { 
     color: #fff;
     background-color: #000;
 }
@@ -134,8 +134,9 @@ h1 {
     color: #FFFFFF;
 }
 
-.item p {
-    font-family: "Shadows Into Light";
+.name {
+    font-family: "Cinzel";
+    display: inline-block;
     padding-right: 70px;
     margin: 0%;
     font-size: 30px;
@@ -144,6 +145,11 @@ h1 {
 .more {
     width: 100%;
     display: flex;
+}
+
+.stars{
+    display: inline-block;
+    font-size: 30px;
 }
 
 .more p {
@@ -183,9 +189,9 @@ h1 {
     padding-top: 130px;
 }
 
-span {
+.cost {
     font-family: "Shadows Into Light";
-    font-size: 28px;
+    font-size: 40px;
     line-height: 68px;
     margin-right: 70px;
     text-align: end;
@@ -283,3 +289,4 @@ span {
  .footer{
      background-color: gray;
  }
+
