@@ -152,7 +152,9 @@ h1 {
     font-size: 30px;
 }
 
-.more p {
+.more a {
+    color: #fff;
+    text-decoration: none;
     font-family: "Shadows Into Light";
     cursor: pointer;
     max-width: 200px;
@@ -161,7 +163,6 @@ h1 {
     border-radius: 20px;
     font-size: 35px;
     line-height: 58px;
-
 }
 
 .owl1 {
