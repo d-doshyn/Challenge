@@ -53,6 +53,9 @@ body {
 
 .menu-text-click {
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-section {
@@ -102,6 +105,11 @@ body {
 
 .to-collections {
     text-decoration: none;
+}
+
+.fa-shopping-cart{
+    color: #fff;
+    font-size: 25px;
 }
 
 .main-image {
