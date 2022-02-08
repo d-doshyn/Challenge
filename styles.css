@@ -39,16 +39,27 @@ body {
     color: #fff;
 }
 
-.search:visited {
-    border: none;
-}
-
 .search {
     background-color: #161616;
     border: solid #161616;
     border-radius: 6px;
     width: 200px;
     height: 25px;
+}
+
+.fa-search{
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-right: -26px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 21px;
+    color: #5F5F5F;
+}
+
+.fa-search + .search {
+    padding-left: 26px;
 }
 
 .menu-text-click {
