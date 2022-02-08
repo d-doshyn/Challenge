@@ -120,7 +120,7 @@ body {
     width: 450px;
 }
 
-.container {
+.container-main {
     text-align: center;
     padding: 20px 0;
     margin: 0 auto;
@@ -249,7 +249,7 @@ h1 {
     font-size: 55px;
 }
 
-.container{
+.about-page-contain{
     width: 90%;
     margin: 0 auto;
 }
