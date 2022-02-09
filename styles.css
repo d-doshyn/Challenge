@@ -45,6 +45,8 @@ body {
     border-radius: 6px;
     width: 200px;
     height: 25px;
+    color:#fff;
+    font-size: 15px;
 }
 
 .fa-search{
