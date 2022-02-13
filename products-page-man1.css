@@ -122,6 +122,7 @@ body{
 main{
     padding-top: 140px;
     padding-left: 3%;
+    display: flex;
 }
 
 .way{
@@ -250,4 +251,18 @@ main{
 .buy:hover{
     text-decoration: none;
     color: rgb(167, 167, 167);
+}
+
+.zoom{
+    margin-left: 170px;
+}
+
+.preview{
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.zoom-image{
+    width: 360px;
 }
