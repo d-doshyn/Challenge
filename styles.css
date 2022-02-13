@@ -255,11 +255,12 @@ h1 {
 .about-us , .social-media{
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 .title{
-    margin-left: 170px;
     font-size: 55px;
+    margin-bottom: 50px;
 }
 
 .about-page-contain{
@@ -299,7 +300,6 @@ h1 {
 }
 
 /* !сеция social media */
-
 .social-block{
     gap: 23px;
 }
@@ -314,6 +314,85 @@ h1 {
 }
 /* !секция footer */
  .footer{
-     background-color: gray;
+     margin-top: 200px;
+     background-color: #161616;
  }
 
+ .footer-container{
+     width: 90%;
+     margin: 0 auto;
+     display: flex;
+     align-items: baseline;
+     justify-content: center;
+     padding: 0px;
+ }
+
+ .footer-block2 , .icon-block , .footer-block1{
+     display: flex;
+     padding: 0 20px;
+ }
+
+.footer-block1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-block2{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.footer-content{
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title{
+    color: white;
+    font-size: 24px;
+    border-bottom: 1px solid gray;
+}
+
+.social-media-footer{
+    margin: 0px;
+}
+
+.icon-block{
+    gap: 15px;
+}
+
+.footer-content > a{
+    cursor: pointer;
+    color:gray;
+}
+
+.input-area{
+    border-radius: 7px;
+    font-size: 24px;
+    width: 400px;
+    height: 50px;
+
+}
+
+.send-email{
+    top: -50px;
+    left: 350px;
+    position: relative;
+    background-color: gray;   
+    color: white;
+    padding: 5px;
+    max-width: 40px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.footer-block3{
+    padding-top:50px;
+}
