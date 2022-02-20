@@ -1,15 +1,15 @@
 section {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  .card-img img {
-    width: 400px;
-  }
+.card-img img {
+  width: 400px;
+}
 
-  figure {
-    display: inline-block;
-  }
+figure {
+  display: inline-block;
+}
 
-  .contain-header{
-      position: static;
-  }
+main{
+  padding-top: 100px;
+}
