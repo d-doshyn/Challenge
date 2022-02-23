@@ -227,6 +227,10 @@ main{
     border-radius: 50%;
 }
 
+.size-chart{
+    text-decoration: none;
+}
+
 .chart{
     margin: 0;
     color: #5f5f5f;
