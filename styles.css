@@ -6,6 +6,11 @@ body{
     font-family: 'Cinzel';
 }
 
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .fixed-header{
     display: flex;
     justify-content: space-around;
@@ -317,7 +322,6 @@ h1 {
      width: 90%;
      margin: 0 auto;
      display: flex;
-     align-items: baseline;
      justify-content: center;
      padding: 0px;
  }
@@ -330,6 +334,7 @@ h1 {
 .footer-block1{
     flex-direction: column;
     align-items: center;
+    margin-top: 13px;
 }
 
 .footer-block2{
@@ -348,6 +353,10 @@ h1 {
 }
 
 .footer-title{
+    color: gray;
+}
+
+.footer-block-title{
     color: white;
     font-size: 24px;
     border-bottom: 1px solid gray;
@@ -359,14 +368,11 @@ h1 {
 
 .icon-block{
     gap: 15px;
-}
-
-.footer-content > a{
-    cursor: pointer;
-    color:gray;
+    margin-top: 10px;
 }
 
 .input-area{
+    margin-top: 10px;
     border-radius: 7px;
     font-size: 24px;
     width: 400px;
@@ -388,6 +394,3 @@ h1 {
     cursor: pointer;
 }
 
-.footer-block3{
-    padding-top: 50px;
-}
