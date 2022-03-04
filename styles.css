@@ -5,6 +5,10 @@ body{
     font-family: 'Cinzel';
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 a{
     cursor: pointer;
     text-decoration: none;
