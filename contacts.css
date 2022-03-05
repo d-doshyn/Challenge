@@ -70,55 +70,6 @@ a{
     align-items: center;
 }
 
-.main-section {
-    height: 750px;
-    width: 100%;
-    background-color: #000;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.clad-inside {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tagline {
-    color: rgba(255, 255, 255, 0.65);
-    margin-bottom: 80px;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.title-img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.collections {
-    font-size: 18px;
-    font-family: 'Shadows Into Light';
-    font-size: 22px;
-    width: 170px;
-    height: 50px;
-    background-color: #161616;
-    color: #fff;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.to-collections {
-    text-decoration: none;
-}
-
 .fa-shopping-cart{
     color: #fff;
     font-size: 25px;

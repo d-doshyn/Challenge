@@ -1,0 +1,93 @@
+body{
+    color: white;
+    background-color: #000;
+    margin: 0;
+    font-family: 'Cinzel';
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fixed-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 94%;
+    border: solid #161616 4px;
+    border-radius: 15px;
+    background-color: #000;
+}
+
+.contain-header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.menu-text{
+    color: #fff;
+}
+
+.search {
+    background-color: #161616;
+    border: solid #161616;
+    border-radius: 6px;
+    width: 200px;
+    height: 25px;
+    color:#fff;
+    font-size: 15px;
+}
+
+.fa-search{
+    position: relative;
+    float: left;
+    z-index: 1;
+    margin-right: -26px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 21px;
+    color: #5F5F5F;
+}
+
+.fa-search + .search {
+    padding-left: 26px;
+}
+
+.menu-text-click {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-shopping-cart{
+    color: #fff;
+    font-size: 25px;
+}
+
+.elastic li.hide{
+    display: none;
+}
+
+.search-area {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 120px;
+    width: 232px;
+    position: absolute;
+    left: 442px;
+    top: 60px;
+    background-color: gray;
+    display: none;
+}
+
