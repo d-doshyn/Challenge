@@ -413,3 +413,25 @@ h1 {
 html {
     scroll-behavior: smooth;
 }
+
+/* themes button */
+#themes{
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.fa-sun{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
