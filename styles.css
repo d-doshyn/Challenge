@@ -10,6 +10,10 @@ a{
     text-decoration: none;
 }
 
+.image-title{
+    width: 200px;
+}
+
 .fixed-header{
     display: flex;
     justify-content: space-around;
@@ -131,6 +135,8 @@ a{
 .model {
     width: 450px;
 }
+
+/* конец главной */
 
 .container-main {
     text-align: center;

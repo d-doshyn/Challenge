@@ -1,0 +1,27 @@
+@media screen and (max-width: 1025px){
+    /* адаптив для хедера */
+    .contain-header{
+        max-width: 1024px;
+    }
+
+    .image-title{
+        max-width: 160px;
+    }
+
+    .menu-text{
+        font-size: 14px;
+    }
+
+    .fa-shopping-cart{
+        font-size: 18px;
+    }
+    /* адаптивы для главной */
+
+    .clad-inside, .title-img{
+        max-width: 512px;
+    }
+
+    .main-image{
+        width: 400px;
+    }
+}
