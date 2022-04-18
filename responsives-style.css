@@ -24,4 +24,25 @@
     .main-image{
         width: 400px;
     }
+
+    /* карусель адаптирована, но есть мелкие фикс */
+    .item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name{
+        font-size: 25px;
+        padding: 0;
+    }
+
+    .stars{
+        font-size: 23px;
+    }
+
+    .cost{
+        font-size: 33px;
+        margin: 0;
+    }
 }
