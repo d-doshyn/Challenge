@@ -77,7 +77,6 @@ a{
 .main-section {
     height: 750px;
     width: 100%;
-    background-color: #000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -153,7 +152,6 @@ a{
 
 .owl { 
     color: #fff;
-    background-color: #000;
 }
 
 h1 {
@@ -196,30 +194,31 @@ h1 {
     line-height: 58px;
 }
 
-.owl1 {
+/* !такие стили можно записать через кому .owl1 , .owl2 {...} и они мешают сделать тёмную тему  */
+/* .owl1 {
     
     color: #fff;
     background-color: #000;
     padding-top: 130px;
-}
+} */
 
-.owl2 {
+/* .owl2 {
     color: #fff;
     background-color: #000;
     padding-top: 130px;
-}
+} */
 
-.owl3 {
+/* .owl3 {
     color: #fff;
     background-color: #000;
     padding-top: 130px;
-}
+} */
 
-.owl4 {
+/* .owl4 {
     color: #fff;
     background-color: #000;
     padding-top: 130px;
-}
+} */
 
 .cost {
     font-family: "Shadows Into Light";
