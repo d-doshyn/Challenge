@@ -24,11 +24,6 @@ a{
     background-color: #000;
 }
 
-.white-bg{
-    background-color: white;
-    color: black;
-}
-
 .menu-text{
     color: #fff;
 }
@@ -96,7 +91,7 @@ a{
 }
 
 .tagline {
-    color: rgba(255, 255, 255, 0.65);
+    color: gray;
     margin-bottom: 80px;
     font-size: 20px;
     margin-top: 10px;
@@ -443,4 +438,15 @@ html {
     width: 50px;
     height: 50px;
     color: #fff;
+}
+
+/* black and white theme */
+
+.black-text{
+    color: black;
+}
+
+.white-bg{
+    background-color: white;
+    color: black;
 }
