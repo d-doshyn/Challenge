@@ -24,6 +24,15 @@ a{
     background-color: #000;
 }
 
+.white-bg{
+    background-color: white;
+    color: black;
+}
+
+.menu-text{
+    color: #fff;
+}
+
 .contain-header{
     z-index: 2;
     position: fixed;
@@ -36,10 +45,6 @@ a{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-}
-
-.menu-text{
-    color: #fff;
 }
 
 .search {
