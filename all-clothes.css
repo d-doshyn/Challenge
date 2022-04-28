@@ -232,3 +232,46 @@ a{
    border-radius: 100%;
    cursor: pointer;
 }
+
+/* themes button */
+#themes{
+    z-index: 99;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.fa-sun{
+    width: 50px;
+    height: 50px;
+    color: #fff;
+}
+
+/* !Поисковая система  */
+.elastic li.hide{
+    display: none;
+}
+
+.search-area {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 120px;
+    width: 232px;
+    position: absolute;
+    left: 442px;
+    top: 60px;
+    background-color: gray;
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
