@@ -148,4 +148,54 @@
     .main-image{
         width: 370px;
     }
+
+    /* адаптивы для карусели */
+    .more a{
+        margin-top: 10px;
+        height: 60px;
+    }
+
+    .more h1{
+        padding-left: 30px;
+        font-size: 45px;
+    }
+
+    #mens, #womens, #boys{
+        padding-left: 30px;
+        font-size: 45px;
+    }
+
+    .name{
+        font-size: 23px;
+    }
+
+    /* адаптивы для about us */
+    .about-page-contain{
+        width: 100%;
+    }
+
+    .about-content{
+        max-width: 360px;
+    }
+
+    .about-content{
+        font-size: 22px;
+    }
+
+    .about-page-contain > .title{
+        padding-left: 30px;
+    }
+
+    /* адаптивы для social media */
+    .container > .title{
+        padding-left: 30px;
+    }
+
+    .social-content{
+        width: 210px;
+    }
+
+    .social-block{
+        gap: 15px;
+    }
 }
