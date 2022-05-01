@@ -87,4 +87,68 @@
         padding-right: 132px;
         padding-left: 132px;
     }
+
+    /* адаптивы для about us */
+    .about-content{
+        height: 300px;
+        font-size: 23px;
+    }
+
+    .title{
+        margin-bottom: 20px;
+    }
+
+    /* адаптивы для social media */
+    .social-content{
+        width: 230px;
+    }
+
+    /* адаптивы для футера */
+    .footer-container{
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer-block3{
+        width: 100%;
+    }
+
+    .left-side, .right-side{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-input{
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-side{
+        justify-content: flex-end;
+        margin-bottom: 40px;
+        width: 400px;
+        margin-right: 30px;
+    }
+
+    .left-side{
+        padding-left: 45px;
+    }
+
+    .input-area{
+        width: 300px;
+    }
+
+    .send-email{
+        left: 250px;
+    }
+
+    .footer-block2{
+        margin-left: 100px;
+    }
+
+    .footer-title{
+        font-size: 18px;
+    }
 }
