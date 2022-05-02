@@ -230,6 +230,11 @@ main{
 .buy{
     text-decoration: none;
     color: #fff;
+    max-width: 100%;
+}
+
+.buy-block{
+    width: 100px;
 }
 
 .buy:hover{
