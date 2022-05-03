@@ -5,7 +5,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+        <!-- Миша, зачем ты подключил 
+        его к style.css, я както исправил
+        но вапще не гребу, как оно работало -->
+        <link rel="stylesheet" href="size-responsive.css">
         <!-- owl carousel -->
         <link rel="stylesheet" href="fonts.css">
         <link rel="icon" href="img/logotype.png">
@@ -14,10 +17,10 @@
     </head>
 
 <body>
-    <section class="contain-header" >
+    <section class="contain-header">
         <header class="fixed-header">
             <div class="title-image">
-                <img src="img/logo-main.png" width="200">
+                <img src="img/logo-main.png" class="image-title">
             </div>
             <div class="input">
                 <i class="fas fa-search"></i>
@@ -34,8 +37,8 @@
                 </ul>
             </div>
             <nav class="menu">
-                <a href="#home" class="menu-text-click">
-                    <h3 class="menu-text">HOME</h3>
+                <a href="#home" class="menu-text-click home">
+                    <h3 class="menu-text home">HOME</h3>
                 </a>
                 <a href="#mens" class="menu-text-click">
                     <h3 class="menu-text">MEN'S</h3>
@@ -62,35 +65,86 @@
             <!-- картинка карточки -->
             <div class="card-img">
               <img alt="" src="img/size (3).png">
+            </div>
           </figure>
     
           <figure class="card">
             <div class="card-img">
                 <img alt="" src="img/size (4).png">
+            </div>
           </figure>
     
           <figure class="card">
             <div class="card-img">
                 <img alt="" src="img/size (5).png">
+            </div>
           </figure>
     
           <figure class="card">
             <div class="card-img">
                 <img alt="" src="img/size (6).png">
+            </div>
           </figure>
     
           <figure class="card">
             <div class="card-img">
                 <img alt="" src="img/size (7).png">
+            </div>
           </figure>
     
           <figure class="card">
             <div class="card-img">
                 <img alt="" src="img/size (8).png">
+            </div>
           </figure>
     
         </section>
       </main>
+
+      <!-- !секция Footer -->
+      <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-block1">
+                <a href="#" class="footer-block-title">SOCIAL MEDIA</a>
+                <div class="icon-block">
+                    <figure class="social-media-footer"><a href="#"><img src="img/Vector3.png"></a></figure>
+                    <figure class="social-media-footer"><a href="#"><img src="img/Vector2.png"></a></figure>
+                    <figure class="social-media-footer"><a href="#"><img src="img/Vector.png"></a></figure>
+                </div>
+            </div>
+            <div class="footer-block2">
+                <figure class="footer-content">
+                    <a href="#" class="footer-block-title">Company</a>
+                    <a href="#" class="footer-title">Blog</a>
+                    <a href="#" class="footer-title">About us</a>
+                    <a href="#" class="footer-title">Sales Policy</a>
+                </figure>
+                <figure class="footer-content">
+                    <a href="#" class="footer-block-title">Support</a>
+                    <a href="#" class="footer-title">FAQ</a>
+                    <a href="#" class="footer-title">Cotact us</a>
+                </figure>
+                <figure class="footer-content">
+                    <a href="#" class=" footer-block-title">Privacy</a>
+                    <a href="#" class="footer-title">Terms of use</a>
+                    <a href="#" class="footer-title">Privacy policy</a>
+                </figure>
+            </div>
+            <div class="footer-block3">
+                <figure class="footer-input">
+                    <div class="left-side">
+                        <a href="#" class="footer-block-title">Subscribe to our news</a>
+                        <input class="input-area" type="text" placeholder="Enter your email">
+                        <a href="#" class="send-email">➜</a>
+                    </div>
+                    <div class="right-side">
+                        <a href="#" class="footer-title">EXPAND inc.© 2022</a>
+                        <a href="#" class="footer-title">Made by Alex, Michele, Dan, Andrew</a>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="index.js"></script>

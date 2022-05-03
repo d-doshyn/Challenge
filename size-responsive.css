@@ -1,0 +1,76 @@
+@media screen and (max-width: 1025px){
+    /* адаптив для хедера */
+    .contain-header{
+        max-width: 1024px;
+    }
+
+    .image-title{
+        max-width: 160px;
+    }
+
+    .menu-text{
+        font-size: 14px;
+    }
+
+    .fa-shopping-cart{
+        font-size: 18px;
+    }
+
+    /* адаптивы для самой страницы */
+    .card-img img{
+        width: 300px;
+    }
+
+    .card-img{
+        width: 300px;
+    }
+
+    /* адаптивы для футера */
+    .footer-container{
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer-block3{
+        width: 100%;
+    }
+
+    .left-side, .right-side{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-input{
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-side{
+        justify-content: flex-end;
+        margin-bottom: 40px;
+        width: 400px;
+        margin-right: 30px;
+    }
+
+    .left-side{
+        padding-left: 45px;
+    }
+
+    .input-area{
+        width: 300px;
+    }
+
+    .send-email{
+        left: 250px;
+    }
+
+    .footer-block2{
+        margin-left: 100px;
+    }
+
+    .footer-title{
+        font-size: 18px;
+    }
+}
