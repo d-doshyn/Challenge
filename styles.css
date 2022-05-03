@@ -397,6 +397,11 @@ h1 {
     cursor: pointer;
 }
 
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+
 /* !Поисковая система  */
 .elastic li.hide{
     display: none;
