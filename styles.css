@@ -73,6 +73,11 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+.fa-shopping-cart{
+    color: #fff;
+    font-size: 25px;
+}
 /* end of header */
 .main-section {
     height: 750px;
@@ -122,10 +127,7 @@ a{
     text-decoration: none;
 }
 
-.fa-shopping-cart{
-    color: #fff;
-    font-size: 25px;
-}
+
 
 .main-image {
     width: 500px;
