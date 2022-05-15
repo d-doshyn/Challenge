@@ -93,8 +93,12 @@ a{
     list-style-type: none;
 }
 
+.elastic li::marker{
+    font-family: 'Font Awesome 5 Free';
+}
+
 .elastic li:before{
-    content: "\1F50D";
+    content: "\f002";
 }
 
 .input{
@@ -458,6 +462,9 @@ h1 {
     background-color: gray;   
     color: white;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 40px;
     font-size: 24px;
     text-align: center;
