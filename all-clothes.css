@@ -10,6 +10,10 @@ a{
     text-decoration: none;
 }
 
+.image-title{
+    width: 200px;
+}
+
 .fixed-header{
     display: flex;
     justify-content: space-around;
