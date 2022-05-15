@@ -10,6 +10,8 @@ a{
     text-decoration: none;
 }
 
+
+
 .image-title{
     width: 200px;
 }
@@ -447,8 +449,16 @@ html {
 
 /* black and white theme */
 
+#themes2{
+    display: none;
+}
+
 .black-text{
     color: black;
+}
+
+.white-text{
+    color: white;
 }
 
 .white-bg{
