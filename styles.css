@@ -111,7 +111,7 @@ a{
 }
 
 .search-area::-webkit-scrollbar{
-    background-color: #161616;
+    background: transparent;
     width: 5px;
 }
 
