@@ -256,8 +256,7 @@ h1 {
     text-decoration: none;
     font-family: "Shadows Into Light";
     cursor: pointer;
-    max-width: 200px;
-    margin: 20px 0 0 40px;
+    width: 100px;
     background-color: #161616;
     border-radius: 20px;
     font-size: 35px;
