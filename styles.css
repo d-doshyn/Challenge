@@ -121,7 +121,7 @@ a{
 }
 
 ::-webkit-scrollbar{
-    background-color: black;
+    background: transparent;
     width: 8px;
 }
 
