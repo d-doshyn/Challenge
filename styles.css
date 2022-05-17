@@ -39,7 +39,8 @@ a{
 .menu {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+
+    margin: 0%;
 }
 
 .menu-text-click {
@@ -52,6 +53,7 @@ a{
 .fa-shopping-cart{
     color: #fff;
     font-size: 25px;
+ 
 }
 
 /* !Поисковая система  */
@@ -509,3 +511,102 @@ h1 {
     background-color: white;
     color: black;
 }
+
+/* dropdown */
+
+.menu li{
+    list-style: none;
+}
+
+.center-icon{
+    margin: 20px 0 20px 0;
+}
+
+
+
+ul {
+	text-align: center;
+}
+
+ul li {
+	cursor: pointer;
+}
+ul li.drop {
+	position: relative;
+}
+ul > li {
+	display: inline-block;
+}
+ul li a {
+	padding: 0 20px;
+	color: #777;
+
+}
+ul li a:hover {
+	color: #eee;
+}
+
+.dropOut .triangle {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid #161616;
+	top: -8px;
+	left: 50%;
+	margin-left: -8px;
+}
+.dropdownContain {
+	width: 160px;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -80px; /* half of width */
+	top: -400px;
+}
+.dropOut {
+	width: 160px;
+	background: #161616;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	opacity: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	box-shadow: 0 1px 6px rgba(0,0,0,.15);
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+
+.dropOut ul {
+	float: left;
+	padding: 10px 0;
+}
+.dropOut ul li {
+	text-align: left;
+	float: left;
+	width: 125px;
+	padding: 12px 0 10px 15px;
+	margin: 0px 10px;
+	color: rgb(95, 95, 95);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.dropOut ul li:hover {
+	background: rgb(91, 93, 96);
+    color: white;
+}
+
+ul li:hover a { color: #161616; }
+ul li:hover .dropdownContain { top: 65px; }
+ul li:hover .underline { border-bottom-color: #000; }
+ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
