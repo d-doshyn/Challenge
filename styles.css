@@ -533,6 +533,7 @@ ul li {
 }
 ul li.drop {
 	position: relative;
+    margin: 0 15px;
 }
 ul > li {
 	display: inline-block;
