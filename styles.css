@@ -524,28 +524,29 @@ h1 {
 
 
 
-ul {
+.burger {
 	text-align: center;
 }
 
-ul li {
+.burger li {
 	cursor: pointer;
 }
 ul li.drop {
 	position: relative;
     margin: 0 15px;
+    cursor: pointer;
 }
-ul > li {
+/* ul > li {
 	display: inline-block;
-}
+} */
 ul li a {
 	padding: 0 20px;
 	color: #777;
 
 }
-ul li a:hover {
+/* ul li a:hover {
 	color: #eee;
-}
+} */
 
 .dropOut .triangle {
 	width: 0;
@@ -607,7 +608,7 @@ ul li a:hover {
     color: white;
 }
 
-ul li:hover a { color: #161616; }
+/* ul li:hover a { color: #161616; } */
 ul li:hover .dropdownContain { top: 65px; }
 ul li:hover .underline { border-bottom-color: #000; }
 ul li:hover .dropOut { opacity: 1; margin-top: 8px; }
