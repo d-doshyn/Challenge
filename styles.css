@@ -563,12 +563,12 @@ ul li a {
 	width: 160px;
 	position: absolute;
 	z-index: 2;
-	left: 50%;
+	left: 60%;
 	margin-left: -80px; /* half of width */
 	top: -400px;
 }
 .dropOut {
-	width: 160px;
+	width: 140px;
 	background: #161616;
 	float: left;
 	position: relative;
@@ -603,7 +603,7 @@ ul li a {
 	border-radius: 4px;
 }
 
-.dropOut ul li:hover {
+.dropOut ul li a:hover {
 	background: rgb(91, 93, 96);
     color: white;
 }
