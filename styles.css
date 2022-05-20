@@ -563,7 +563,7 @@ ul li a {
 	width: 160px;
 	position: absolute;
 	z-index: 2;
-	left: 60%;
+	left: 65%;
 	margin-left: -80px; /* half of width */
 	top: -400px;
 }
