@@ -516,6 +516,9 @@ h1 {
 
 .menu li{
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .center-icon{
