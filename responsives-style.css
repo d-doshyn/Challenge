@@ -273,3 +273,19 @@
         padding-left: 70px;
     }
 }
+
+@media screen and (max-width: 426px){
+    .clad-inside, .title-img{
+        width: 100%;
+        position: absolute;
+        margin: 0;
+    }
+
+    .main-section{
+        justify-content: center;
+    }
+
+    .tagline{
+        margin-bottom: 110px;
+    }
+}
