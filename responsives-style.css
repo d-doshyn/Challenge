@@ -288,4 +288,8 @@
     .tagline{
         margin-bottom: 110px;
     }
+
+    .model{
+        opacity: 0.5;
+    }
 }
