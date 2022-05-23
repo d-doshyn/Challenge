@@ -275,6 +275,7 @@
 }
 
 @media screen and (max-width: 426px){
+    /* адаптив для главной */
     .clad-inside, .title-img{
         width: 100%;
         position: absolute;
@@ -291,5 +292,25 @@
 
     .model{
         opacity: 0.5;
+    }
+
+    /* адаптив для about us */
+    .about-content{
+        max-width: 200px;
+        max-height: 180px;
+    }
+
+    .ab-info{
+        font-size: 13px;
+    }
+
+    .title{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    /* social media */
+    .social-content{
+        width: 110px;
     }
 }
