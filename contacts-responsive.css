@@ -189,3 +189,27 @@
         padding-left: 70px;
     }
 }
+
+@media screen and (max-width: 426px){
+    main{
+        flex-direction: column;
+    }
+
+    .image{
+        margin: 50px 0 0 0;
+    }
+
+    .click-email, .call, .location{
+        font-size: 20px;
+    }
+
+    .mail, .phone, .location{
+        width: 100%;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 30px;
+    }
+}
