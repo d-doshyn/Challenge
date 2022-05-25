@@ -280,3 +280,33 @@
         padding-left: 70px;
     }
 }
+
+@media screen and (max-width: 426px){
+    .change-places{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .picture{
+        z-index: -1;
+    }
+
+    .size-color{
+        position: relative;
+        left: -110px;
+    }
+
+    .stars{
+        display: none;
+    }
+
+    .main-content{
+        justify-content: center;
+        width: 425px;
+    }
+
+    .description{
+        width: 30%;
+    }
+}
