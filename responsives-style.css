@@ -294,6 +294,16 @@
         opacity: 0.5;
     }
 
+    /* carousel */
+    #mens, #womens, #boys, #girls{
+        font-size: 32px;
+    }
+
+    .more a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
     /* адаптив для about us */
     .about-content{
         max-width: 200px;
