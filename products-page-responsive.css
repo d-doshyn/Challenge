@@ -290,11 +290,12 @@
 
     .picture{
         z-index: -1;
+        margin-left: 20px;
     }
 
     .size-color{
         position: relative;
-        left: -110px;
+        left: -160px;
     }
 
     .stars{
@@ -308,5 +309,50 @@
 
     .description{
         width: 30%;
+    }
+
+    .picture, .clouses{
+        width: 150px;
+    }
+
+    .main-content{
+        justify-content: space-evenly;
+    }
+
+    .picture{
+        width: 40%;
+    }
+
+    .description{
+        width: 60%;
+    }
+
+    .main-text{
+        font-size: 35px;
+    }
+
+    .price{
+        font-size: 40px;
+    }
+
+    .buy-block{
+        position: relative;
+        left: -160px;
+    }
+
+    .bottom-section{
+        padding: 0 20px;
+    }
+
+    .descr-on, .details{
+        font-size: 20px;
+    }
+
+    .bottom{
+        margin: 0;
+    }
+
+    .bottom-text{
+        justify-content: space-between;
     }
 }
