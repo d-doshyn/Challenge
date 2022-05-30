@@ -323,4 +323,84 @@
     .social-content{
         width: 110px;
     }
+
+    /* footer */
+    .footer-block1{
+        max-width: 35%;
+        margin: 10px 0 0 0;
+    }
+
+    .footer-block2{
+        max-width: 65%;
+    }
+
+    .social-media-footer a img {
+        width: 30px;
+    }
+
+    .footer-block1 .footer-block-title{
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .icon-block{
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .footer-block2 .footer-content{
+        margin: 10px;
+    }
+
+    .footer-content .footer-block-title{
+        font-size: 12px;
+    }
+
+    .footer-title{
+        font-size: 13px;
+    }
+
+    .footer-block-title{
+        text-align: center;
+    }
+
+    .left-side{
+        max-width: 35%;
+        padding: 0;
+        margin: 0 0 0 10px;
+    }
+
+    h3.footer-block-title{
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .right-side{
+        max-width: 65%;
+    }
+
+    .input-area{
+        width: 130px;
+        height: 30px;
+    }
+
+    .input-area::placeholder{
+        font-size: 12px;
+    }
+
+    .send-email{
+        left: 105px;
+        top: -30px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .right-side{
+        margin: 0 0 30px 10px;
+        gap: 5px;
+    }
+
+    /* .right-side .footer-title{
+        font-size: 15px;
+    } */
 }
