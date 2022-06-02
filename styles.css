@@ -89,13 +89,13 @@ a{
 .elastic a{
     color: #5F5F5F;
     margin-left: 10px;
-    margin: 0;
+    margin: 10px;
 }
 
 .elastic li{
     /* list-style-image: url(./img/search.png); */
     list-style: none;
-    background: url(./img/search.png) no-repeat 0 4px;
+    background: url(./img/searchlogo-dark.png) no-repeat 0 4px;
 }
 
 /* .elastic li::before{
