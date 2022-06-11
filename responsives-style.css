@@ -56,9 +56,9 @@
     }
 
     /* адаптивы для about us */
-    .about-content{
+    .ab-info{
         height: 300px;
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .title{
@@ -125,6 +125,14 @@
     /* главная */
     .main-image{
         width: 400px;
+    }
+    /* о нас */
+    .about-content{
+        height: 300px;
+    }
+
+    .ab-info{
+        font-size: 24px;
     }
 }
 
@@ -313,6 +321,17 @@
     .main-image{
         width: 340px;
     }
+
+    /* ab us */
+    .about-content{
+        height: 250px;
+        width: 300px;
+    }
+
+    .ab-info{
+        font-size: 18px;
+        max-height: 100%;
+    }
 }
 
 @media screen and (max-width: 630px){
@@ -462,6 +481,16 @@
     /* главная */
     .main-image{
         width: 350px;
+    }
+
+    /* ab us */
+    .about-content{
+        height: 100px;
+        max-width: 150px;
+    }
+
+    .ab-info{
+        font-size: 9px;
     }
 }
 
