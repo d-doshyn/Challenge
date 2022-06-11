@@ -465,24 +465,46 @@
     }
 }
 
+
+@media screen and (max-width: 425px) {
+
+    #mens, #womens, #boys, #girls{
+        font-size: 24px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #mens, #womens, #boys, #girls{
+        font-size: 20px;
+    }
+
+
+}
+
 @media screen and (max-width: 340px) {
     /* главная */
     .main-image{
         width: 320px;
-    }
+    }    
 
     .model{
         width: 300px;
-    }
-}
+    }    
+
+   
+}    
 
 @media screen and (max-width: 321px) {
     /* главная */
     .main-image{
         width: 300px;
-    }
+    }    
 
     .model{
         width: 300px;
-    }
-}
+    }    
+}    
+
