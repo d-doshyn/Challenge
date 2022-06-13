@@ -1,6 +1,11 @@
 let area = document.querySelector(".search-area");
 let search = document.querySelector(".search");
 let all = document.querySelector(".all-elements");
+let icon = document.querySelector(".fa-search");
+
+icon.onclick = function () {
+	area.style.display = "flex";
+}
 
 search.onclick = function () {
 	area.style.display = "flex";
