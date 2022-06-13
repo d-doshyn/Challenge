@@ -54,21 +54,6 @@
         letter-spacing: 2px;
     }
 
-    /* адаптивы для about us */
-    .about-content{
-        height: 300px;
-        font-size: 23px;
-    }
-
-    .title{
-        margin-bottom: 20px;
-    }
-
-    /* адаптивы для social media */
-    .social-content{
-        width: 230px;
-    }
-
     /* адаптивы для футера */
     .footer-container{
         flex-wrap: wrap;
@@ -230,5 +215,45 @@
 
     .left-side{
         padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    /* адаптивы для самой страницы */
+    .title{
+        font-size: 30px;
+        margin: 0 0 10px 30px;
+    }
+
+    .card{
+        width: 160px;
+    }
+
+    .thing{
+        font-size: 19px;
+    }
+
+    .stars{
+        font-size: 18px;
+    }
+
+    .thing{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-stars{
+        align-items: end;
+        z-index: -1;
+    }
+
+    .cost{
+        width: 60px;
+        font-size: 25px;
+        position: relative;
+        bottom: 30px;
+        height: 0;
     }
 }

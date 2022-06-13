@@ -27,9 +27,9 @@ function ToggleTheme() {
 	else {
 		Header.classList.remove("white-bg");
 		body.classList.remove("white-bg");
-		HeaderLogo.src = "img/logo-main.png";
+		HeaderLogo.src = "img/logo 2.png";
 		Model.src = "img/model-1.png";
-		Logo.src = "img/logo-main.png";
+		Logo.src = "img/logo 2.png";
 		Icon.classList.add("fa-sun");
 		Icon.classList.remove("fa-moon");
 		Search.classList.remove("white-bg");

@@ -117,10 +117,7 @@ a {
 .elastic a {
     color: #5f5f5f;
     margin-left: 10px;
-}
-
-.elastic li {
-    list-style-type: none;
+    margin: 10px;
 }
 
 .elastic li::marker {
@@ -130,6 +127,17 @@ a {
 .elastic li:before {
     content: "\f002";
 }
+.elastic li{
+    list-style-type: none;
+    /* list-style-image: url(./img/search.png); */
+    list-style: none;
+    background: url(./img/searchlogo-dark.png) no-repeat 0 4px;
+}
+
+/* .elastic li::before{
+    content: '\f002';
+    font-family: 'Font Awesome 5 Free';
+} */
 
 .input {
     display: flex;
