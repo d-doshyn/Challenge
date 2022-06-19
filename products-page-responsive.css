@@ -356,3 +356,34 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 376px){
+    .size, .color{
+        width: 150px;
+    }
+
+    .main-text{
+        font-size: 30px;
+    }
+
+    .main-content{
+        width: 300px;
+    }
+
+    .picture{
+        width: 50%;
+    }
+
+    .description{
+        width: 50%;
+    }
+
+    .size-description, .size-img, .color-description, .color-description2, .color-description3, .color-description4{
+        width: 20px;
+        height: 20px;
+    }
+
+    .details, .descr-on{
+        font-size: 17px;
+    }
+}
